@@ -1,0 +1,47 @@
+body{
+    padding: 0px;
+}
+.wrapper{
+ width: 100% !important;
+ height: 100vh !important;
+ display: flex;
+ gap: 10px;
+ flex-wrap: wrap;
+ flex-direction: row;
+} 
+
+
+.response{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 49.7%;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+
+
+}   
+
+ 
+.review{
+    display: flex;
+    border-radius: 10px;
+    height: 100%;
+    width: 49.7%;
+    color: #dadada;
+    background-color: rgb(36, 36, 36);
+} 
+.editor-button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  background-color: #dadada;
+  border: none;
+  padding: 15px 50px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  z-index: 10;
+}
