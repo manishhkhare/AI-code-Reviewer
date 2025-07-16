@@ -20,7 +20,7 @@ if (x > 10) {
 
   const Handler = async () => {
     try {
-      const response = await fetch("http://localhost:5001/ai/review", {
+      const response = await fetch("https://code-reviewer-api-9xks.onrender.com/ai/review", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

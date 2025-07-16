@@ -1,7 +1,6 @@
 body{
  padding: 0px;
 
-
 }
 body ::-webkit-scrollbar{
     width: hide;
@@ -28,21 +27,30 @@ body ::-webkit-scrollbar{
 }   
 
  
-.review {
+.review
+{
   flex: 1;
   width: 49.8%;
   min-height: 100%;
-  color: rgb(202, 202, 202);
-  font-size: 20px; 
-  background: #000000;
+  max-height: 400px;
   padding: 1rem;
-  border-radius: 8px;
+
+  color: rgb(202, 202, 202);
+  background: #000000;
+  font-size: 20px;
   font-family: monospace;
   white-space: pre-wrap;
-  max-height: 400px;
-  overflow-y: auto;
 
-}  
+  border-radius: 8px;
+
+  overflow-y: auto;
+}
+
+/* Hide scrollbar */
+.review::-webkit-scrollbar
+{
+  width: 0px;
+}
 
 .editor{
     min-height: 100% !important;
@@ -89,7 +97,7 @@ body ::-webkit-scrollbar{
 } 
 .review2{ 
     display: block;
-    height: 200px;
+    height: 400px;
     color: rgb(202, 202, 202);
     font-size: 20px; 
     min-height: 400px;
